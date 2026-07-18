@@ -9,7 +9,7 @@ Artha AI/
 ├── backend/                  # FastAPI + Python
 │   ├── main.py              # API entry-point & CORS config
 │   ├── risk_engine.py       # Pydantic schemas + scoring logic
-│   ├── llm_service.py       # Gemini API integration (Artha persona)
+│   ├── llm_service.py       # Artha persona
 │   ├── requirements.txt     # Python dependencies
 │   └── .env.example         # Environment template
 │
@@ -33,7 +33,7 @@ Artha AI/
 ```bash
 cd backend
 pip install -r requirements.txt
-cp .env.example .env           # Add your GEMINI_API_KEY
+cp .env.example .env           
 uvicorn main:app --reload
 ```
 
@@ -51,7 +51,7 @@ The Vite dev server proxies `/api` requests to `http://localhost:8000`.
 
 1. **Quiz** — User answers 15 financial health questions (one at a time).
 2. **Risk Engine** — Backend scores answers (15–45), classifies risk tier (Conservative / Moderate / Aggressive), and checks critical flags (no insurance, high debt).
-3. **AI Plan** — Gemini generates a personalized wealth plan via the "Artha" persona with guardrails for Indian financial products, insurance mandates, and debt clearance.
+3. **AI Plan** — A personalized wealth plan via the "Artha" persona with guardrails for Indian financial products, insurance mandates, and debt clearance.
 4. **Display** — Frontend renders the Markdown plan with score visualization, flag alerts, and styled typography.
 
 ## Tech Stack
