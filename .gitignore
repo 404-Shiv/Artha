@@ -1,0 +1,23 @@
+# Node dependencies
+node_modules/
+dist/
+.eslintcache
+
+# Python virtual environments & caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (contains sensitive API keys)
+.env
+backend/.env
+
+# Local development files & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
