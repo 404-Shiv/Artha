@@ -1,6 +1,6 @@
 # Artha AI — Your AI Financial Advisor
 
-A full-stack AI-powered financial advisory application that generates personalized wealth plans based on your risk profile. Built for the Indian financial ecosystem.
+An AI-powered financial advisory application that generates personalized wealth plans based on your risk profile. Built for the Indian financial ecosystem.
 
 ## Architecture
 
