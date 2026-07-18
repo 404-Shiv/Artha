@@ -58,4 +58,3 @@ The Vite dev server proxies `/api` requests to `http://localhost:8000`.
 
 - **Backend**: FastAPI, Pydantic, Google GenAI SDK
 - **Frontend**: React 19, Vite, Tailwind CSS v4, react-markdown
-- **AI**: Google Gemini 2.5 Flash
